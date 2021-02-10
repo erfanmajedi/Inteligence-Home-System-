@@ -1,0 +1,9 @@
+vhdtdtfi -lang verilog -prj Module3 -o "C:/Users/Anformatic Golestan/Documents/Logic Circuits/Project Faze 1/Module3/CoolHeatSystem.tfi" -lib work "C:/Users/Anformatic Golestan/Documents/Logic Circuits/Project Faze 1/Module3//CoolHeatSystem.v" -module CoolHeatSystem -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work {C:/Users/Anformatic Golestan/Documents/Logic Circuits/Project Faze 1/Module3/CoolHeatSystem.v} -lang verilog -prj Module3 -o CoolHeatSystem.spl -module CoolHeatSystem -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 CoolHeatSystem.spl {C:/Users/Anformatic Golestan/Documents/Logic Circuits/Project Faze 1/Module3/CoolHeatSystem.sym} 
+xst -intstyle ise -ifn "C:/Users/Anformatic Golestan/Documents/Logic Circuits/Project Faze 1/Module3/CoolHeatSystem.xst" -ofn "C:/Users/Anformatic Golestan/Documents/Logic Circuits/Project Faze 1/Module3/CoolHeatSystem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "CoolHeatSystem.ngc" CoolHeatSystem.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CoolHeatSystem_map.ncd CoolHeatSystem.ngd CoolHeatSystem.pcf 
+par -w -intstyle ise -ol high -mt off CoolHeatSystem_map.ncd CoolHeatSystem.ncd CoolHeatSystem.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CoolHeatSystem.twx CoolHeatSystem.ncd -o CoolHeatSystem.twr CoolHeatSystem.pcf 
+xst -intstyle ise -ifn "C:/Users/Anformatic Golestan/Documents/Logic Circuits/Final Project/Module3/CoolHeatSystem.xst" -ofn "C:/Users/Anformatic Golestan/Documents/Logic Circuits/Final Project/Module3/CoolHeatSystem.syr" 

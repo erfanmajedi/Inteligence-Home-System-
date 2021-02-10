@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+CoolHeatSystem instance_name (
+    .arst(arst), 
+    .clk(clk), 
+    .speed(speed), 
+    .chs_conf(chs_conf), 
+    .chs_power(chs_power), 
+    .chs_mode(chs_mode), 
+    .pwm_data(pwm_data)
+    );
+
+

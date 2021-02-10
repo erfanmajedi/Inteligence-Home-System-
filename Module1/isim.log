@@ -1,0 +1,15 @@
+ISim log file
+Running: C:\Users\Anformatic Golestan\Documents\Logic Circuits\Final Project\Module1\testModule_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Anformatic Golestan/Documents/Logic Circuits/Final Project/Module1/testModule_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING:  For instance dut/resultAdder/, width 32 of formal port B is not equal to width 218 of actual constant.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Base=       200, ref= 10, adc_data=   32, tempc=       200
+Base=       120, ref=  8, adc_data=   32, tempc=       160
+Base=         0, ref= 16, adc_data=    8, tempc=        10
+Base=         0, ref= 16, adc_data=   21, tempc=         0

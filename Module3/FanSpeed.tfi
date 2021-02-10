@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+FanSpeed instance_name (
+    .arst(arst), 
+    .clk(clk), 
+    .speed(speed), 
+    .pwm_data(pwm_data)
+    );
+
+

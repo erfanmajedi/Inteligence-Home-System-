@@ -1,0 +1,10 @@
+[Inputs]
+arst
+clk
+=speed[7:0]=
+[Outputs]
+pwm_data
+[BiDir]
+[ATTRIBUTES]
+VeriModel FanSpeed
+

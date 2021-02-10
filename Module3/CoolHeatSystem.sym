@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="CoolHeatSystem">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2021-1-26T18:5:43</timestamp>
+    <attr value="CoolHeatSystem" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-224" name="arst" />
+    <pin polarity="Input" x="0" y="-160" name="clk" />
+    <pin polarity="Input" x="0" y="-96" name="speed(7:0)" />
+    <pin polarity="Input" x="0" y="-32" name="chs_conf(7:0)" />
+    <pin polarity="Output" x="448" y="-224" name="chs_mode" />
+    <pin polarity="Output" x="448" y="-128" name="pwm_data" />
+    <pin polarity="Output" x="448" y="-32" name="chs_power(3:0)" />
+    <graph>
+        <rect width="320" x="64" y="-256" height="256" />
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="224" y="-264" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-224" type="pin arst" />
+        <line x2="0" y1="-224" y2="-224" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-160" type="pin clk" />
+        <line x2="0" y1="-160" y2="-160" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-96" type="pin speed(7:0)" />
+        <rect width="64" x="0" y="-108" height="24" />
+        <line x2="0" y1="-96" y2="-96" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin chs_conf(7:0)" />
+        <rect width="64" x="0" y="-44" height="24" />
+        <line x2="0" y1="-32" y2="-32" x1="64" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-224" type="pin chs_mode" />
+        <line x2="448" y1="-224" y2="-224" x1="384" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-128" type="pin pwm_data" />
+        <line x2="448" y1="-128" y2="-128" x1="384" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="376" y="-32" type="pin chs_power(3:0)" />
+        <rect width="64" x="384" y="-44" height="24" />
+        <line x2="448" y1="-32" y2="-32" x1="384" />
+    </graph>
+</symbol>

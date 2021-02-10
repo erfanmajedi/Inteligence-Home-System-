@@ -1,0 +1,23 @@
+ISim log file
+Running: C:\Users\Anformatic Golestan\Documents\Logic Circuits\Final Project\Module7\testModule_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Anformatic Golestan/Documents/Logic Circuits/Final Project/Module7/testModule_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+dbg_state: 001, request: 0, confirm: 0, password: 3, syskey: 1, configin:           0, configout:           0, write_en: 0
+dbg_state: 010, request: 1, confirm: 0, password: 3, syskey: 1, configin:           0, configout:           0, write_en: 0
+dbg_state: 101, request: 1, confirm: 1, password: 3, syskey: 1, configin:           0, configout:           0, write_en: 0
+dbg_state: 001, request: 0, confirm: 0, password: 3, syskey: 1, configin:           0, configout:           0, write_en: 0
+dbg_state: 010, request: 1, confirm: 0, password: 3, syskey: 1, configin:           0, configout:           0, write_en: 0
+dbg_state: 010, request: 1, confirm: 0, password: 1, syskey: 1, configin:           0, configout:           0, write_en: 0
+dbg_state: 011, request: 1, confirm: 1, password: 1, syskey: 1, configin:           0, configout:           0, write_en: 0
+dbg_state: 011, request: 1, confirm: 0, password: 1, syskey: 1, configin:           0, configout:           0, write_en: 0
+dbg_state: 011, request: 1, confirm: 0, password: 1, syskey: 1, configin:        1465, configout:           0, write_en: 0
+dbg_state: 100, request: 1, confirm: 1, password: 1, syskey: 1, configin:        1465, configout:        1465, write_en: 1
+dbg_state: 100, request: 1, confirm: 0, password: 1, syskey: 1, configin:        1465, configout:        1465, write_en: 1
+dbg_state: 001, request: 0, confirm: 0, password: 1, syskey: 1, configin:        1465, configout:           0, write_en: 0
+Stopped at time : 240 ns :  in File "C:/Users/Anformatic Golestan/Documents/Logic Circuits/Final Project/Module7/testModule.v" Line 36 

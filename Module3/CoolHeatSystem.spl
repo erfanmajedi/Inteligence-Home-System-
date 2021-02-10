@@ -1,0 +1,13 @@
+[Inputs]
+arst
+clk
+=speed[7:0]=
+=chs_conf[7:0]=
+[Outputs]
+chs_mode
+pwm_data
+=chs_power[3:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel CoolHeatSystem
+

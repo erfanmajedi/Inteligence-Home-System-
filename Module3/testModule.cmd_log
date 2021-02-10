@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Users/Anformatic Golestan/Documents/Logic Circuits/Project Faze 1/Module3/testModule.xst" -ofn "C:/Users/Anformatic Golestan/Documents/Logic Circuits/Project Faze 1/Module3/testModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "testModule.ngc" testModule.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "testModule.ngc" testModule.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "testModule.ngc" testModule.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "testModule.ngc" testModule.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "testModule.ngc" testModule.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "testModule.ngc" testModule.ngd  
